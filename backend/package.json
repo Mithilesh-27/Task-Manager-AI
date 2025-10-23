@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "Mithilesh",
@@ -12,8 +12,11 @@
   "description": "",
   "dependencies": {
     "colors": "^1.4.0",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "mongoose": "^8.19.2"
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.19.2",
+    "openai": "^6.6.0"
   }
 }
